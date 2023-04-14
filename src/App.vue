@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <h1>{{ title }}</h1>
+  <div class="container">
+    <headerComponent />
+    
   </div>
 </template>
 
 <script>
-export default{
-  name: 'AppTitle',
-  data(){
-    return{
-      title: 'La mia prima app con Vite!'
-    }
-  }
+import headerComponent from './components/headerComponent.vue';
 
+export default {
+  name: 'App',
+  components: {
+    headerComponent,
+  }
 }
 </script>
 

@@ -48,11 +48,11 @@ export default {
 
 <style lang="scss">
 .logo{
-    width: 85px;
+    width: 100%;
 }
 
 .logo img{
-    width: 100%;
+    width: 80px;
 }
 
 nav a{

@@ -26,7 +26,7 @@
                         <li>
                             <a href="#">News</a>
                         </li>
-                    </ul>
+                    </ul> 
                     <h3 class="fw-bold fs-5 text-uppercase mt-3">Shop</h3>
                     <ul>
                         <li>
@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="bg-footer d-none d-lg-block">
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                <img src="../assets/img/dc-logo-bg.png" alt="footer-logo">
             </div>
         </div>
     </nav>
@@ -134,7 +134,9 @@
         height: 450px;
     }
 
-    
+    .bg-footer{
+        width: 400px;
+    }
 
     a{
         font-size: small;
